@@ -1,4 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Wanderlust Explorer
+
+## Design References
+
+These references will inform the visual design and user experience of Wanderlust Explorer. They are design references only; their interfaces will not be copied literally.
+
+### Airbnb Experiences
+
+[https://www.airbnb.com/s/experiences](https://www.airbnb.com/s/experiences)
+
+This reference will inspire the experience cards, search and filtering patterns, ratings, and visual hierarchy.
+
+### GetYourGuide
+
+[https://www.getyourguide.com/](https://www.getyourguide.com/)
+
+This reference will inspire activity discovery, filters, activity cards, and destination-oriented navigation.
+
+### Viator
+
+[https://www.viator.com/](https://www.viator.com/)
+
+This reference will inspire searching by place or activity, browsing an experience catalog, and discovering destinations.
 
 ## Getting Started
 
