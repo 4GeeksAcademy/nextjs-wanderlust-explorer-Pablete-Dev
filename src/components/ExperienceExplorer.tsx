@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import ExperienceCard from "@/components/ExperienceCard";
 import FilterBar from "@/components/FilterBar";
@@ -58,6 +59,12 @@ export default function ExperienceExplorer({
       (!category || experience.category === category) &&
       (!destination || experience.destination === destination),
   );
+
+  useEffect(() => {
+    document.title = search
+      ? `${filteredExperiences.length} results for "${search}" | Wanderlust Explorer`
+      : "Experiences | Wanderlust Explorer";
+  }, [filteredExperiences.length, search]);
 
   return (
     <section aria-label="Experience search and results">
